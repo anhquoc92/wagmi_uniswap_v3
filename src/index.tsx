@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals'
 import { client } from './wagmi'
 import './polyfills.ts'
 
-const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
+const root = ReactDOM.createRoot(document.getElementById('root')  as HTMLElement)
 root.render(
   <React.StrictMode>
     <WagmiConfig client={client}>
